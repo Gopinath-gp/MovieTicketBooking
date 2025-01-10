@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 import com.Spider.Booking.dao.LocationDao;
 import com.Spider.Booking.dto.Location;
 import com.Spider.Booking.util.ResponseStructure;
-import com.project.movieticketbooking.exception.ListOfLocationNotFoundException;
-import com.project.movieticketbooking.exception.LocationNotFoundException;
+import com.Spider.Booking.execption.ListOfLocationNotFoundException;
+import com.Spider.Booking.execption.LocationNotFoundException;
 
 @Service
 public class LocationService {

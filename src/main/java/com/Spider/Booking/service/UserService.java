@@ -10,8 +10,8 @@ import com.Spider.Booking.dao.UserDao;
 import com.Spider.Booking.dto.User;
 import com.Spider.Booking.execption.AdminNotFoundException;
 import com.Spider.Booking.util.ResponseStructure;
-import com.project.movieticketbooking.exception.ListOfAllUserNotFoundException;
-import com.project.movieticketbooking.exception.UserNotFoundException;
+import com.Spider.Booking.execption.ListOfAllUserNotFoundException;
+import com.Spider.Booking.execption.UserNotFoundException;
 @Service
 public class UserService {
 @Autowired

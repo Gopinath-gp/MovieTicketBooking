@@ -1,9 +1,10 @@
 package com.Spider.Booking.execption;
 
-import lombok.Data;
-
-
 public class TicketNotFoundExecption  extends RuntimeException{
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 private String message;
 
 public TicketNotFoundExecption(String message) {

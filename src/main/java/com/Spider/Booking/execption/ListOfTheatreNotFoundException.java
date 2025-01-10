@@ -1,6 +1,10 @@
 package com.Spider.Booking.execption;
 
 public class ListOfTheatreNotFoundException  extends RuntimeException{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String message;
 
 	public ListOfTheatreNotFoundException(String message) {

@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 import com.Spider.Booking.dao.ScreenDao;
 import com.Spider.Booking.dto.Screen;
 import com.Spider.Booking.util.ResponseStructure;
-import com.project.movieticketbooking.exception.ListOfScreenNotFoundException;
-import com.project.movieticketbooking.exception.ScreenNotFoundException;
+import com.Spider.Booking.execption.ListOfScreenNotFoundException;
+import com.Spider.Booking.execption.ScreenNotFoundException;
 
 @Service
 public class ScreenService {

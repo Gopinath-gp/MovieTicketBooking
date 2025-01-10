@@ -12,7 +12,7 @@ import com.Spider.Booking.execption.ListOfAdminNotFoundException;
 import com.Spider.Booking.execption.AdminNotFoundException;
 import com.Spider.Booking.extra.Admindto;
 import com.Spider.Booking.util.ResponseStructure;
-import com.project.movieticketbooking.exception.UserNotFoundException;
+import com.Spider.Booking.execption.UserNotFoundException;
 
 @Service
 public class AdminService {

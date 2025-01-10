@@ -9,10 +9,11 @@ import org.springframework.stereotype.Service;
 import com.Spider.Booking.dao.BookingDao;
 import com.Spider.Booking.dto.Booking;
 import com.Spider.Booking.util.ResponseStructure;
-import com.project.movieticketbooking.exception.BookingDeleteNotFound;
-import com.project.movieticketbooking.exception.BookingNotFoundException;
-import com.project.movieticketbooking.exception.BookingUpdateCannotDone;
-import com.project.movieticketbooking.exception.ListOfBookingNotFoundException;
+
+import com.Spider.Booking.execption.BookingDeleteNotFound;
+import com.Spider.Booking.execption.BookingNotFoundException;
+import com.Spider.Booking.execption.BookingUpdateCannotDone;
+import com.Spider.Booking.execption.ListOfBookingNotFoundException;
 
 @Service
 public class BookingService {

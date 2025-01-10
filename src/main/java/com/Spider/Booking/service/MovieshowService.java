@@ -8,8 +8,9 @@ import org.springframework.stereotype.Service;
 import com.Spider.Booking.dao.MovieshowDao;
 import com.Spider.Booking.dto.Movieshow;
 import com.Spider.Booking.util.ResponseStructure;
-import com.project.movieticketbooking.exception.ListOfShowNotFoundException;
-import com.project.movieticketbooking.exception.ShowNotFoundException;
+import com.Spider.Booking.execption.*;
+import com.Spider.Booking.execption.ShowNotFoundException;
+//import com.project.movieticketbooking.exception.ShowNotFoundException;
 
 @Service
 public class MovieshowService {
